@@ -807,7 +807,7 @@ deploykf_core:
     gatewayService:
       name: deploykf-gateway
       annotations: {}
-      type: NodePort
+      type: loadBalance
       loadBalancerIP: ""
       loadBalancerSourceRanges: []
 
